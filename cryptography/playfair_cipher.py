@@ -101,6 +101,8 @@ for i in range(0,len(plain_txt),2):
 
 # now generating the 5x5 matrix using the key
 key_mod=key.replace(' ','',-1)#remove all space character
+
+#here in the following lines i am tring to remove duplicates present in the key
 new_key=''
 for j in key_mod:
     if j not in new_key:
