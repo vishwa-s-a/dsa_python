@@ -1,0 +1,10 @@
+print(bool(15))
+print(bool("vsa"))
+print(bool(""))
+print(bool([]))
+print("isinstance() operations".center(100,"+"))
+print(isinstance(15,int))
+print(isinstance(15,str))
+print(isinstance(15,float))
+x=3
+print(100- +x)
