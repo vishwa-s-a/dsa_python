@@ -111,7 +111,6 @@ def encrypt(matrix,k,polygrams):
 
 
 def decrypt(matrix,k,polygrams):
-    print(polygrams)
     inverse_mat=find_inverse(matrix,k)
     encrypt(inverse_mat,k,polygrams)
 
