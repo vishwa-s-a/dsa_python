@@ -1,7 +1,6 @@
+l1=[]
+l1.append(('vishwa',23))
+l1.append(('vishwa',23))
+l1.append(('vishwa',23))
 
-def greet():
-    print('hello')
-    bye()
-def bye():
-    print('bye')
-greet()
+print(l1)
