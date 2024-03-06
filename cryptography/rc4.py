@@ -66,9 +66,9 @@ if __name__=='__main__':
     # pt=input()
     # key=input()
     # n=int(input())
-    pt="001010010010"
-    key="101001000001"
-    n=3
+    pt="1111000000001111"
+    key="0101010111001010"
+    n=4
     print("***************** Encryption part ******************".center(105))
     ct=encryption(pt,key,n)
     print("")
