@@ -1,0 +1,24 @@
+bitwise operators available in python are
+~  complement
+&  and
+|  or
+^  xor
+<< left shift
+>> right shift
+
+*********************** exploring the complement operations**********************************
+* ~12 is -13
+ as 12 in binary is 00001100
+ ~12 is 11110011
+ -13 is represented using the 2's complement method(then stored in pc's)
+
+* method to find the 2'complement
+ 13 in binary is 00001101
+ first find the 1's complement of 13 
+ i.e 11110010
+
+ now find the 2's complement: i.e (1's complement +1 )
+ 11110010+1=11110011
+
+ you can see this 11110011(2's complement of -13) is same as ~12
+ so ~12=-13

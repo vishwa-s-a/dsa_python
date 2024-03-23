@@ -1,5 +1,5 @@
 '''
-implementing stack using 2 queues
+implementing stack using 2 queues(here it is my own way of using list instead of queue)
 '''
 class stack:
     def __init__(self):
